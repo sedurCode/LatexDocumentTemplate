@@ -1,0 +1,22 @@
+\documentclass{report}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[margin=0.7in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{lipsum} 
+
+\hyphenpenalty=10000
+\preto{\subsection}{\Needspace{5\baselineskip}}
+\preto{\section}{\Needspace{5\baselineskip}}
+
+
+% \title{Your Title Here}
+
+\begin{document}
+% \maketitle
+
+\lipsum[2-4]
+
+\end{document}
